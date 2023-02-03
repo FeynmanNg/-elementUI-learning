@@ -17,11 +17,11 @@
     }"
     @click="handleItemClick"
     >
-    <!-- <div
+    <div
       v-if="$parent.type === 'card'"
       v-show="!active"
       class="el-carousel__mask">
-    </div> -->
+    </div>
     <slot></slot>
     <!-- p 标签待删除，测试用 -->
     <div style="position: absolute; top: 20%; left: 50%">
